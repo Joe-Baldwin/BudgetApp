@@ -1,3 +1,5 @@
+export const waait = () => new Promise(res => setTimeout(res, Math.random() * 800))
+
 // Local storage
 
 const generateRandomColor = () => {
