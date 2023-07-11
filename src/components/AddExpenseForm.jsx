@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useRef } from "react"
 
 // rrd imports
@@ -55,7 +56,7 @@ const AddExpenseForm = ({ budgets }) => {
               inputMode="decimal"
               name="newExpenseAmount"
               id="newExpenseAmount"
-              placeholder="e.g., 3.50"
+              placeholder="e.g., $3.50"
               required
             />
           </div>
